@@ -1,0 +1,206 @@
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header {
+    background: #F9F8FF;
+    .navbar-light {
+        .navbar-nav {
+            .nav-link {
+                color: #000000;
+                font-family: 'Inter', sans-serif;
+            }
+        }
+    }
+    .section-hero {
+        h1 {
+            font-size: 54px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+        }
+        p {
+            font-size: 15px;
+            font-family: 'Inter', sans-serif;
+            color: #929292;
+            margin-top: 25px;
+            font-weight: 400;
+        }
+        .btn-custom {
+            background: #7868E6;
+            color: #ffffff;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 8px;
+            margin-top: 30px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+        }
+    }
+}
+
+.section-client {
+    margin-top: 150px;
+    padding-bottom: 50px;
+    h2 {
+        font-family: 'Inter', sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        color: #929292;
+        margin-top: 10px;
+        font-weight: 400;
+    }
+}
+
+.section-specialities {
+    margin-top: 150px;
+    padding-bottom: 50px;
+    h2 {
+        font-family: 'Inter', sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        color: #929292;
+        margin-top: 10px;
+        font-weight: 400;
+    }
+    .card-specialities {
+        padding: 40px 20px 10px;
+        width: 310px;
+        border-top: 5px solid #7868E6;
+        box-shadow: 0px 24px 34px rgba(199, 201, 217, 0.25);
+        margin-top: 60px;
+        margin-bottom: 20px;
+        .specialities {
+            min-height: 200px;
+            h3 {
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-size: 22px;
+                color: #000;
+                margin-top: 25px;
+            }
+            .text-deskripsi {
+                font-size: 14px;
+                font-family: 'Inter', sans-serif;
+                color: #929292;
+                text-align: justify;
+                width: 90%;
+                margin-top: 10px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.section-portfolio {
+    margin-top: 100px;
+    padding-bottom: 50px;
+    h2 {
+        font-family: 'Inter', sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        color: #929292;
+        margin-top: 10px;
+        font-weight: 400;
+    }
+    .card-portfolio {
+        margin-top: 50px;
+        border-radius: 20px;
+        .portfolio {
+            width: 550px;
+            min-height: 450px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        h3 {
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 28px;
+            color: #000;
+        }
+        .text-deskripsi {
+            font-size: 14px;
+            font-family: 'Inter', sans-serif;
+            color: #929292;
+            font-weight: 200;
+        }
+    }
+    .card-portfolio-mini {
+        margin-top: 60px;
+        border-radius: 20px;
+        .portfolio-mini {
+            width: 380px;
+            min-height: 290px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        h3 {
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: #000;
+            margin-top: 25px;
+        }
+        .text-deskripsi {
+            font-size: 14px;
+            font-family: 'Inter', sans-serif;
+            color: #929292;
+            text-align: justify;
+            width: 90%;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+    }
+}
+
+.footer {
+    margin-top: 70px;
+    padding-bottom: 40px;
+    .left {
+        h3 {
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: #000;
+        }
+    }
+    .right {
+        li {
+            list-style: none;
+            padding: 5px;
+            margin-left: 20px;
+            margin-right: 20px;
+            a {
+                text-decoration: none;
+                color: #000000;
+                font-family: "Inter", sans-serif;
+                font-size: 14px;
+                font-weight: 300;
+            }
+            .btn-custom {
+                background: #7868E6;
+                color: #ffffff;
+                padding: 10px 25px;
+                border: none;
+                border-radius: 8px;
+                margin-top: 30px;
+                font-family: 'Inter', sans-serif;
+                font-weight: 500;
+            }
+        }
+    }
+}
